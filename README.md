@@ -61,6 +61,20 @@ The best model weights (highest validation accuracy) are saved automatically to 
 
 ---
 
+## 📊 Results
+
+| Epoch | Training Loss | Validation Accuracy |
+|-------|--------------|-------------------|
+| 1 | 0.0610 | 99.54% |
+| 2 | 0.0345 | 99.69% |
+| 3 | 0.0234 | 99.74% |
+| 4 | 0.0211 | 99.79% |
+| 5 | 0.0195 | **99.83%** |
+
+The model achieved a best validation accuracy of **99.83%** in just 5 epochs, with training loss steadily decreasing from 0.061 to 0.019.
+
+---
+
 ## 🔎 Inference
 
 Use the `check_for_crack()` function to run inference on any image from the dataset:
